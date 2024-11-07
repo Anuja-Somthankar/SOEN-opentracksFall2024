@@ -114,7 +114,7 @@ public abstract class SensorStatisticsViewHolder extends StatisticViewHolder<Sta
             if (sensorDataSet != null && sensorDataSet.getCyclingPower() != null) {
                 return StringUtils.getPowerParts(getContext(), sensorDataSet.getCyclingPower().getValue());
             } else {
-                return StringUtils.getCadenceParts(getContext(), null); // Or a default unit if needed
+                return StringUtils.getCadenceParts(getContext(), null); 
             }
         }
 
